@@ -28,7 +28,7 @@ class ContactMail extends Mailable
 
     {
 
-        return $this->subject('Contact US - '. $this->data->subject)
+        return $this->subject('Contact US -')
 
                     ->view('emails.contact');
 
